@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 4</title>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset>
+        <legend>Контактная информация</legend>
+        <label for="name">Имя</label>
+        <input type="text" name="name" id="name"> <br>
+        <label for="lastname">Фамилия</label>
+        <input type="text" name="lastname" id="lastname"> <br>
+        <label for="gender">Пол</label>
+        <input type="radio" name="question" value="Male">
+        <span for=>Mужской</span>
+        <input type="radio" name="question" value="Female">
+        <span>Женский</span> <br>
+        <span>Владею языками</span>
+        <input type="checkbox" name="Rus" id="ru">
+        <label for="ru">Русский</label>
+        <input type="checkbox" name="Bel" id="by">
+        <label for="by">Белоусский</label>
+        <input type="checkbox" name="Eng" id="en">
+        <label for="en">Английский</label> <br>
+        <span>Страна проживания</span>
+        <select>
+          <option value="none" hidden selected>Выберите страну</option>
+          <option value="01">Беларусь</option>
+          <option value="02">Россия</option>
+          <option value="03">Украина</option>
+          <option value="04">Другая</option>
+        </select> <br>
+        <span>Фотография профиля</span>
+        <input type="file" name="photo">
+      </fieldset>
+      <input type="button" value="Отправить">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 7</title>
+  </head>
+  <body>
+    <h1>Анкета Web-разработчика</h1>
+    <div>
+      <form action="#">
+        <table border="1px" width="700px" style="background-color: #aaa;">
+            <tr>
+              <td bgcolor="#afa">Регистрационное имя</td>
+              <td>
+                <input type="text" name="name">
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" bgcolor="#afa">Пароль</td>
+              <td>
+                <input type="password" name="pass"> <br>
+                <input type="password" name="pass2"><span>:подтвердите пароль</span>
+              </td >
+            </tr>
+            <tr>
+              <td bgcolor="#afa">Ваша специализация</td>
+              <td>
+                <select name="sel">
+                  <option value="1">Web-мастер</option>
+                  <option value="2">Разработчик</option>
+                  <option value="3">Дизаайнер</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#afa">Пол</td>
+              <td>
+                <label for="gm">М</label>
+                <input type="radio" name="male" id="gm">
+                <label for="gf">Ж</label>
+                <input type="radio" name="male" id="gf">
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" bgcolor="#afa">Ваши навыки</td>
+              <td>
+                <input type="checkbox" name="01" id="skill1">
+                <label for="skill1">знание HTML и CSS</label> <br>
+                <input type="checkbox" name="02" id="skill2">
+                <label for="skill2">знание Perl</label> <br>
+                <input type="checkbox" name="03" id="skill3">
+                <label for="skill3">знание ASP</label> <br>
+                <input type="checkbox" name="04" id="skill4">
+                <label for="skill4">знание Adobe Photoshop</label> <br>
+                <input type="checkbox" name="05" id="skill5">
+                <label for="skill5">знание JAVA</label> <br>
+                <input type="checkbox" name="06" id="skill6">
+                <label for="skill6">знание JavaScript</label> <br>
+                <input type="checkbox" name="07" id="skill7">
+                <label for="skill7">знание Flash</label>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" bgcolor="#afa">Дополнительные <br> сведения о себе</td>
+              <td>
+                <textarea name="area" cols="35" rows="4"></textarea>
+              </td>
+            </tr>
+        </table>
+      <hr style="width: 700px; margin-left: 0;">
+        <input type="button" value="зарегистрировать">
+        <input type="reset" value="очистить форму">
+      </form>
+    </div>
+  </body>
+</html>
